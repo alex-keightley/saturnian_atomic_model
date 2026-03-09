@@ -2,7 +2,8 @@
 
 Numerical simulation of a simplified “Saturnian” atomic model, tracking the motion of electrons orbiting a fixed atomic nucleus under Coulomb forces. The simulation can handle multiple electrons, calculate their energies, track orbital eccentricities, and determine when orbits become unstable.
 
-## Overvie
+## Overview
+
 This project models electrons orbiting an atomic nucleus in a two-dimensional plane under the influence of Coulomb forces. The goal is to investigate orbital dynamics, stability, and the evolution of eccentricity for systems of one or more electrons.
 
 The model considers electrons in either a single shell or in multiple orbital shells (currently supporting up to two shells), with initial positions and tangential velocities calculated to produce circular or near-circular orbits. The code tracks the evolution of each electron’s orbit, including:
@@ -53,4 +54,4 @@ The code is modular and designed to allow easy experimentation with different at
 
 ## Example Output
 
-![Graph of Orbit and Eccentricity](figures/sample_figure-orbit)
+![Graph of Orbit and Eccentricity](figures/sample_figure-orbit.png)
